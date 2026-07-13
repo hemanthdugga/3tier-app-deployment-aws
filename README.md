@@ -230,4 +230,4 @@ To ensure total structural redundancy across scaling production request windows,
 - Confirm that your database instance rejects all direct internet connections and responds exclusively to verified traffic from application nodes.
 - Run simulated high-concurrency loads on your instances to verify that AWS Auto Scaling groups scale out accurately when CPU utilization hits the 70% threshold.
 
-![Video](./assets/output-demo.mp4)
+![Video](./assets/output-demo.gif)
