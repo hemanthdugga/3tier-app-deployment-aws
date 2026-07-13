@@ -229,3 +229,5 @@ To ensure total structural redundancy across scaling production request windows,
 - Verify that HTTP traffic on port 80 automatically upgrades to secure HTTPS configurations on your external ALB.
 - Confirm that your database instance rejects all direct internet connections and responds exclusively to verified traffic from application nodes.
 - Run simulated high-concurrency loads on your instances to verify that AWS Auto Scaling groups scale out accurately when CPU utilization hits the 70% threshold.
+
+![Video](./assets/output-demo.mp4)
